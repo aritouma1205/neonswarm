@@ -1,0 +1,151 @@
+<template>
+  <style>
+    #root {
+      position: absolute;
+      inset: 0;
+      overflow: hidden;
+      background: #05070f;
+    }
+    #sys-bg {
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+    }
+    #sys-bg img {
+      width: 1920px;
+      height: 1080px;
+      object-fit: cover;
+      opacity: 0.5;
+    }
+    #sys-bg .shade {
+      position: absolute;
+      inset: 0;
+      background: rgba(5, 7, 15, 0.82);
+    }
+    #sys-title {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 110px;
+      text-align: center;
+      z-index: 5;
+      font-size: 34px;
+      letter-spacing: 0.5em;
+      color: var(--green);
+      text-transform: uppercase;
+      text-shadow: 0 0 20px rgba(125, 255, 106, 0.55);
+    }
+    #sys-cards {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 300px;
+      display: flex;
+      justify-content: center;
+      gap: 34px;
+      z-index: 5;
+    }
+    .wcard {
+      width: 310px;
+      height: 400px;
+      background: rgba(10, 14, 30, 0.94);
+      border: 1px solid rgba(207, 231, 255, 0.22);
+      border-top: 3px solid var(--wc);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 24px;
+      padding: 52px 20px 0;
+      box-shadow: 0 10px 44px rgba(0, 0, 0, 0.55), 0 0 26px color-mix(in srgb, var(--wc) 18%, transparent);
+    }
+    .wcard .glyph {
+      font-size: 88px;
+      line-height: 1;
+      color: var(--wc);
+      text-shadow: 0 0 30px var(--wc);
+    }
+    .wcard .wname {
+      font-size: 30px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-align: center;
+      color: var(--wc);
+      text-transform: uppercase;
+      line-height: 1.25;
+    }
+    .wcard .wk {
+      font-size: 28px;
+      letter-spacing: 0.1em;
+      text-align: center;
+      color: rgba(207, 231, 255, 0.85);
+      text-transform: uppercase;
+    }
+    .wcard .mk {
+      margin-top: auto;
+      margin-bottom: 26px;
+      font-size: 20px;
+      letter-spacing: 0.3em;
+      color: rgba(207, 231, 255, 0.62);
+    }
+  </style>
+
+  <div id="root" data-composition-id="systems" data-width="1920" data-height="1080">
+    <div class="clip" id="sys-bg" data-start="0" data-duration="4.2" data-layout-ignore>
+      <img src="assets/gameplay-b.png" alt="" />
+      <div class="shade"></div>
+    </div>
+
+    <div class="clip" id="sys-title" data-start="0.3" data-duration="3.9">
+      <span class="w">CHOOSE YOUR SYSTEMS</span>
+    </div>
+
+    <div class="clip" id="sys-cards" data-start="0" data-duration="4.2">
+      <div class="wcard" style="--wc: #4de8ff">
+        <div class="glyph">»</div>
+        <div class="wname">Pulse Blaster</div>
+        <div class="wk">seeking bolts</div>
+        <div class="mk" data-layout-ignore>MK.I — V</div>
+      </div>
+      <div class="wcard" style="--wc: #7dff6a">
+        <div class="glyph">◎</div>
+        <div class="wname">Gyre Blades</div>
+        <div class="wk">orbital ring</div>
+        <div class="mk" data-layout-ignore>MK.I — V</div>
+      </div>
+      <div class="wcard" style="--wc: #ffe14d">
+        <div class="glyph">✦</div>
+        <div class="wname">Nova Burst</div>
+        <div class="wk">shockwave</div>
+        <div class="mk" data-layout-ignore>MK.I — V</div>
+      </div>
+      <div class="wcard" style="--wc: #ff9c41">
+        <div class="glyph">➤</div>
+        <div class="wname">Seeker Swarm</div>
+        <div class="wk">homing volley</div>
+        <div class="mk" data-layout-ignore>MK.I — V</div>
+      </div>
+      <div class="wcard" style="--wc: #b45dff">
+        <div class="glyph">⌖</div>
+        <div class="wname">Rail Lance</div>
+        <div class="wk">piercing ray</div>
+        <div class="mk" data-layout-ignore>MK.I — V</div>
+      </div>
+    </div>
+
+    <div class="clip scan" id="sys-scan" data-start="0" data-duration="4.2" style="z-index: 7" data-layout-allow-occlusion></div>
+    <div class="clip vig" id="sys-vig" data-start="0" data-duration="4.2" style="z-index: 4"></div>
+  </div>
+
+  <script>
+    window.__timelines = window.__timelines || {};
+    const tl = gsap.timeline({ paused: true });
+
+    tl.fromTo('#sys-title .w', { opacity: 0, filter: 'blur(8px)' }, { opacity: 1, filter: 'blur(0px)', duration: 0.2, ease: 'power4.out' }, 0.3);
+    // card cascade — staggered 70ms, expo.out
+    tl.fromTo('#sys-cards .wcard',
+      { opacity: 0, y: 46, filter: 'blur(10px)' },
+      { opacity: 1, y: 0, filter: 'blur(0px)', duration: 0.5, ease: 'expo.out', stagger: 0.07 }, 0.55);
+
+    window.__timelines['systems'] = tl;
+  </script>
+</template>

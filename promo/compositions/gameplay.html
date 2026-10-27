@@ -1,0 +1,136 @@
+<template>
+  <style>
+    #root {
+      position: absolute;
+      inset: 0;
+      overflow: hidden;
+      background: #05070f;
+    }
+    #gp-shot {
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+    }
+    #gp-shot .wrap {
+      position: absolute;
+      inset: 0;
+      will-change: transform;
+    }
+    #gp-shot img {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 1920px;
+      height: 1080px;
+      object-fit: cover;
+    }
+    .kicker {
+      position: absolute;
+      left: 96px;
+      top: 74px;
+      z-index: 5;
+      font-size: 30px;
+      letter-spacing: 0.42em;
+      color: var(--green);
+      text-transform: uppercase;
+      text-shadow: 0 0 16px rgba(125, 255, 106, 0.6);
+    }
+    .kicker .dot {
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: var(--magenta);
+      box-shadow: 0 0 14px var(--magenta);
+      margin-right: 16px;
+      vertical-align: 1px;
+    }
+    .chips {
+      position: absolute;
+      left: 96px;
+      top: 130px;
+      z-index: 5;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+    .chip {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      background: rgba(8, 12, 26, 0.88);
+      border: 1px solid rgba(77, 232, 255, 0.35);
+      border-left: 4px solid var(--cyan);
+      padding: 18px 26px;
+      font-size: 28px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--ink);
+      width: max-content;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    }
+    .chip.c2 { border-left-color: var(--magenta); }
+    .chip.c3 { border-left-color: var(--amber); }
+    .chip b { color: var(--cyan); font-weight: 700; font-size: 34px; }
+    .chip.c2 b { color: var(--magenta); }
+    .chip.c3 b { color: var(--amber); }
+    #dim {
+      position: absolute;
+      inset: 0;
+      background: #05070f;
+      opacity: 0;
+      z-index: 6;
+    }
+  </style>
+
+  <div id="root" data-composition-id="gameplay" data-width="1920" data-height="1080">
+    <div class="clip" id="gp-shot" data-start="0" data-duration="6.8">
+      <div class="wrap">
+        <img src="assets/gameplay.png" alt="NEON SWARM gameplay" />
+      </div>
+    </div>
+
+    <div class="clip" id="gp-kicker" data-start="0.5" data-duration="6.3">
+      <div class="kicker"><span class="dot"></span><span class="w">REAL RUN — UNSCRIPTED</span></div>
+    </div>
+
+    <div class="clip" id="gp-chips" data-start="1.0" data-duration="5.8">
+      <div class="chips">
+        <div class="chip"><b>5</b><span>weapon systems, mk.i–v</span></div>
+        <div class="chip c2"><b>7</b><span>hostile archetypes</span></div>
+        <div class="chip c3"><b>0</b><span>art assets — all procedural</span></div>
+      </div>
+    </div>
+
+    <div class="clip" id="dim" data-start="0" data-duration="6.8" data-layout-allow-occlusion></div>
+    <div class="clip scan" id="gp-scan" data-start="0" data-duration="6.8" style="z-index: 7" data-layout-allow-occlusion></div>
+    <div class="clip vig" id="gp-vig" data-start="0" data-duration="6.8" style="z-index: 4"></div>
+  </div>
+
+  <script>
+    window.__timelines = window.__timelines || {};
+    const tl = gsap.timeline({ paused: true });
+
+    // shot settles from slightly large, then drifts (Ken Burns on the wrapper)
+    tl.fromTo('#gp-shot .wrap',
+      { scale: 1.16, x: 40, y: 22 },
+      { scale: 1.0, x: 0, y: 0, duration: 0.55, ease: 'power3.out' }, 0);
+    tl.to('#gp-shot .wrap', { scale: 1.08, x: -30, y: -16, duration: 4.0, ease: 'power1.inOut' }, 0.55);
+    // punch-in on the swarm cluster, hold through the cut
+    tl.to('#gp-shot .wrap', { scale: 1.62, x: -340, y: -60, duration: 0.6, ease: 'power3.inOut' }, 4.75);
+    tl.to('#gp-shot .wrap', { scale: 1.68, x: -352, y: -66, duration: 1.55, ease: 'none' }, 5.35);
+
+    // kicker
+    tl.fromTo('#gp-kicker .w', { opacity: 0, filter: 'blur(6px)' }, { opacity: 1, filter: 'blur(0px)', duration: 0.18, ease: 'power4.out' }, 0.5);
+
+    // chips staggered in
+    tl.fromTo('#gp-chips .chip',
+      { opacity: 0, x: -36, filter: 'blur(8px)' },
+      { opacity: 1, x: 0, filter: 'blur(0px)', duration: 0.45, ease: 'expo.out', stagger: 0.55 }, 1.0);
+
+    // dip cut: 3-frame darken before the hard cut to systems
+    tl.to('#dim', { opacity: 0.55, duration: 0.12, ease: 'power2.in' }, 6.66);
+
+    window.__timelines['gameplay'] = tl;
+  </script>
+</template>

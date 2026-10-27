@@ -100,6 +100,10 @@ ui.showTitle(startRun)
 
 // expose for headless smoke tests / debugging
 ;(window as unknown as { __game: Game }).__game = game
+import('./game/weapons').then(m => {
+  ;(window as unknown as { __addWeapon: (id: string) => void }).__addWeapon = id =>
+    m.addWeapon(game, id as import('./game/types').WeaponId)
+})
 
 // ---- fixed-step loop ----
 const STEP = 1 / 60

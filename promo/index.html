@@ -1,0 +1,133 @@
+<!doctype html>
+<html
+  lang="en"
+  data-composition-variables='[
+    {"id":"title","type":"string","label":"Title","default":"NEON SWARM"},
+    {"id":"cta","type":"string","label":"CTA","default":"npm run dev"}
+  ]'
+>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      :root {
+        --ground: #05070f;
+        --ink: #cfe7ff;
+        --cyan: #4de8ff;
+        --magenta: #ff4d9d;
+        --green: #7dff6a;
+        --amber: #ffe14d;
+        --violet: #b45dff;
+        --mono: 'JetBrains Mono', 'Space Mono', monospace;
+        --display: 'League Gothic', 'Archivo Black', sans-serif;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        background: var(--ground);
+        font-family: var(--mono);
+        color: var(--ink);
+      }
+      #root {
+        position: absolute;
+        inset: 0;
+      }
+      /* shared chrome across scenes */
+      .scan {
+        position: absolute;
+        inset: 0;
+        pointer-events: none;
+        background: repeating-linear-gradient(
+          0deg,
+          rgba(0, 0, 0, 0.22) 0px,
+          rgba(0, 0, 0, 0.22) 2px,
+          transparent 2px,
+          transparent 6px
+        );
+      }
+      .vig {
+        position: absolute;
+        inset: 0;
+        pointer-events: none;
+        background: radial-gradient(ellipse at center, transparent 52%, rgba(2, 4, 12, 0.72) 100%);
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      id="root"
+      data-composition-id="main"
+      data-start="0"
+      data-duration="20"
+      data-width="1920"
+      data-height="1080"
+    >
+      <div
+        id="swarm"
+        data-composition-id="swarm"
+        data-composition-src="compositions/swarm.html"
+        data-start="0"
+        data-duration="4.6"
+        data-track-index="1"
+        data-track-kind="graphics"
+        data-width="1920"
+        data-height="1080"
+      ></div>
+      <div
+        id="gameplay"
+        data-composition-id="gameplay"
+        data-composition-src="compositions/gameplay.html"
+        data-start="4.6"
+        data-duration="6.8"
+        data-track-index="2"
+        data-track-kind="graphics"
+        data-width="1920"
+        data-height="1080"
+      ></div>
+      <div
+        id="systems"
+        data-composition-id="systems"
+        data-composition-src="compositions/systems.html"
+        data-start="11.4"
+        data-duration="4.2"
+        data-track-index="3"
+        data-track-kind="graphics"
+        data-width="1920"
+        data-height="1080"
+      ></div>
+      <div
+        id="endcard"
+        data-composition-id="endcard"
+        data-composition-src="compositions/endcard.html"
+        data-start="15.6"
+        data-duration="4.4"
+        data-track-index="4"
+        data-track-kind="graphics"
+        data-width="1920"
+        data-height="1080"
+        data-variable-values='{"cta":"npm run dev"}'
+      ></div>
+      <audio
+        id="bgm"
+        class="clip"
+        data-start="0"
+        data-track-index="9"
+        src="assets/bgm.wav"
+        data-volume="1"
+      ></audio>
+    </div>
+    <script>
+      window.__timelines = window.__timelines || {};
+      window.__timelines["main"] = gsap.timeline({ paused: true });
+    </script>
+  </body>
+</html>
