@@ -19,8 +19,8 @@ export const ENEMY_DEFS: Record<EnemyKind, EnemyDef> = {
   wasp:     { kind: 'wasp',     hp: 18,   speed: 205, dmg: 10, r: 10, xp: 3,   color: '#ffe14d', sides: 3 },
   spitter:  { kind: 'spitter',  hp: 36,   speed: 72,  dmg: 10, r: 13, xp: 4,   color: '#b45dff', sides: 5 },
   bulwark:  { kind: 'bulwark',  hp: 150,  speed: 44,  dmg: 22, r: 23, xp: 7,   color: '#ff3b3b', sides: 6 },
-  sentinel: { kind: 'sentinel', hp: 950,  speed: 55,  dmg: 26, r: 34, xp: 45,  color: '#ff2d78', sides: 6 },
-  overmind: { kind: 'overmind', hp: 2800, speed: 42,  dmg: 34, r: 50, xp: 140, color: '#c7245a', sides: 8 },
+  sentinel: { kind: 'sentinel', hp: 720,  speed: 55,  dmg: 26, r: 34, xp: 45,  color: '#ff2d78', sides: 6 },
+  overmind: { kind: 'overmind', hp: 2200, speed: 42,  dmg: 34, r: 50, xp: 140, color: '#c7245a', sides: 8 },
 }
 
 export function spawnEnemy(
@@ -40,7 +40,7 @@ export function spawnEnemy(
   e.y = y
   e.vx = 0
   e.vy = 0
-  e.maxHp = Math.round(d.hp * hpMul * (elite ? 5 : 1) * (boss ? 1 : 1))
+  e.maxHp = Math.round(d.hp * hpMul * (elite ? 3.5 : 1))
   e.hp = e.maxHp
   e.r = d.r * (elite ? 1.5 : 1)
   e.speed = d.speed * (elite ? 0.9 : 1) * (0.9 + g.rng() * 0.2)

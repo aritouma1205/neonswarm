@@ -10,12 +10,12 @@ export function difficultyAt(t: number): number {
 /** Enemy HP multiplier — gentler ramp than spawn budget. */
 export function hpMulAt(t: number): number {
   const m = t / 60
-  return 1 + m * 0.3 + m * m * 0.025
+  return 1 + m * 0.26 + m * m * 0.02
 }
 
 /** Spawn budget generated per second. */
 export function spawnRateAt(t: number): number {
-  return Math.min(16, 1.5 + t / 40 + (t * t) / 55000)
+  return Math.min(15, 1.5 + t / 48 + (t * t) / 64000)
 }
 
 export const ELITE_CHANCE = (t: number): number => Math.min(0.14, 0.008 + t / 5500)

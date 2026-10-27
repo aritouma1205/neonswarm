@@ -15,7 +15,7 @@ export const PLAYER_BASE = {
   magnetR: 90,
   armor: 0,
   regen: 0,
-  iframesOnHit: 0.55,
+  iframesOnHit: 0.7,
 }
 
 export const XP_FOR_LEVEL = (level: number): number =>
