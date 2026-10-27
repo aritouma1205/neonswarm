@@ -1,0 +1,2195 @@
+{
+  "ok": false,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 8,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<div class=\"scan\" data-start=\"0\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/home/aritouma/projects/neonswarm/promo/compositions/endcard.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<div class=\"vig\" data-start=\"0\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/home/aritouma/projects/neonswarm/promo/compositions/endcard.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<div class=\"scan\" data-start=\"0\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/home/aritouma/projects/neonswarm/promo/compositions/gameplay.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<div class=\"vig\" data-start=\"0\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/home/aritouma/projects/neonswarm/promo/compositions/gameplay.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<div class=\"scan\" data-start=\"0\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/home/aritouma/projects/neonswarm/promo/compositions/swarm.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<div class=\"vig\" data-start=\"0\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/home/aritouma/projects/neonswarm/promo/compositions/swarm.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<div class=\"scan\" data-start=\"0\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/home/aritouma/projects/neonswarm/promo/compositions/systems.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      },
+      {
+        "code": "studio_missing_editable_id",
+        "severity": "warning",
+        "message": "<div class=\"vig\" data-start=\"0\"> has no id, so Studio cannot use a stable edit target for its timeline and canvas controls.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/home/aritouma/projects/neonswarm/promo/compositions/systems.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a stable, human-readable id such as id=\"hero-title\" or id=\"scene-1-card\" to every timeline-visible element you want agents or Studio to edit."
+      }
+    ],
+    "filesScanned": 5
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": false,
+    "errorCount": 34,
+    "warningCount": 0,
+    "infoCount": 9,
+    "findings": [
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 1.111,
+        "selector": "#line-1 > h2:nth-of-type(1) > span:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 733.67,
+          "top": 240,
+          "right": 911.88,
+          "bottom": 372,
+          "width": 178.2,
+          "height": 132
+        },
+        "containerSelector": "#swarm > div:nth-of-type(1) > div:nth-of-type(5)",
+        "text": "ONE",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "compositions/swarm.html",
+        "bbox": {
+          "x": 733.67,
+          "y": 240,
+          "width": 178.2,
+          "height": 132
+        },
+        "firstSeen": 1.111,
+        "lastSeen": 3.333,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          1.111,
+          3.333
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 1.111,
+        "selector": "#line-1 > h2:nth-of-type(1) > span:nth-of-type(2)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 931.66,
+          "top": 240,
+          "right": 1186.31,
+          "bottom": 372,
+          "width": 254.66,
+          "height": 132
+        },
+        "containerSelector": "#swarm > div:nth-of-type(1) > div:nth-of-type(5)",
+        "text": "SHIP.",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "compositions/swarm.html",
+        "bbox": {
+          "x": 931.66,
+          "y": 240,
+          "width": 254.66,
+          "height": 132
+        },
+        "firstSeen": 1.111,
+        "lastSeen": 3.333,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          1.111,
+          3.333
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 5.556,
+        "selector": "div.kicker > span:nth-of-type(2)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 124,
+          "top": 74,
+          "right": 595.25,
+          "bottom": 103,
+          "width": 471.25,
+          "height": 29
+        },
+        "containerSelector": "#gameplay > div:nth-of-type(1) > div:nth-of-type(6)",
+        "text": "REAL RUN — UNSCRIPTED",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "compositions/gameplay.html",
+        "bbox": {
+          "x": 124,
+          "y": 74,
+          "width": 471.25,
+          "height": 29
+        },
+        "firstSeen": 5.556,
+        "lastSeen": 10,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          5.556,
+          7.778,
+          10
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 7.778,
+        "selector": "div.chips > div:nth-of-type(1) > b:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 122,
+          "top": 145,
+          "right": 137.97,
+          "bottom": 172,
+          "width": 15.97,
+          "height": 27
+        },
+        "containerSelector": "#gameplay > div:nth-of-type(1) > div:nth-of-type(6)",
+        "text": "5",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "compositions/gameplay.html",
+        "bbox": {
+          "x": 122,
+          "y": 145,
+          "width": 15.97,
+          "height": 27
+        },
+        "firstSeen": 7.778,
+        "lastSeen": 10,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          7.778,
+          10
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 7.778,
+        "selector": "div.chips > div:nth-of-type(1) > span:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 153.97,
+          "top": 145,
+          "right": 505.09,
+          "bottom": 172,
+          "width": 351.13,
+          "height": 27
+        },
+        "containerSelector": "#gameplay > div:nth-of-type(1) > div:nth-of-type(6)",
+        "text": "weapon systems, mk.i–v",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "compositions/gameplay.html",
+        "bbox": {
+          "x": 153.97,
+          "y": 145,
+          "width": 351.13,
+          "height": 27
+        },
+        "firstSeen": 7.778,
+        "lastSeen": 10,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          7.778,
+          10
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 7.778,
+        "selector": "div.chip.c2 > b:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 122,
+          "top": 220,
+          "right": 137.97,
+          "bottom": 247,
+          "width": 15.97,
+          "height": 27
+        },
+        "containerSelector": "#gameplay > div:nth-of-type(1) > div:nth-of-type(6)",
+        "text": "7",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "compositions/gameplay.html",
+        "bbox": {
+          "x": 122,
+          "y": 220,
+          "width": 15.97,
+          "height": 27
+        },
+        "firstSeen": 7.778,
+        "lastSeen": 10,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          7.778,
+          10
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 7.778,
+        "selector": "div.chip.c2 > span:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 153.97,
+          "top": 220,
+          "right": 441.25,
+          "bottom": 247,
+          "width": 287.28,
+          "height": 27
+        },
+        "containerSelector": "#gameplay > div:nth-of-type(1) > div:nth-of-type(6)",
+        "text": "hostile archetypes",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "compositions/gameplay.html",
+        "bbox": {
+          "x": 153.97,
+          "y": 220,
+          "width": 287.28,
+          "height": 27
+        },
+        "firstSeen": 7.778,
+        "lastSeen": 10,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          7.778,
+          10
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 7.778,
+        "selector": "div.chip.c3 > b:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 122,
+          "top": 295,
+          "right": 137.97,
+          "bottom": 322,
+          "width": 15.97,
+          "height": 27
+        },
+        "containerSelector": "#gameplay > div:nth-of-type(1) > div:nth-of-type(6)",
+        "text": "0",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "compositions/gameplay.html",
+        "bbox": {
+          "x": 122,
+          "y": 295,
+          "width": 15.97,
+          "height": 27
+        },
+        "firstSeen": 7.778,
+        "lastSeen": 10,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          7.778,
+          10
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 7.778,
+        "selector": "div.chip.c3 > span:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 153.97,
+          "top": 295,
+          "right": 584.89,
+          "bottom": 322,
+          "width": 430.92,
+          "height": 27
+        },
+        "containerSelector": "#gameplay > div:nth-of-type(1) > div:nth-of-type(6)",
+        "text": "art assets — all procedural",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "compositions/gameplay.html",
+        "bbox": {
+          "x": 153.97,
+          "y": 295,
+          "width": 430.92,
+          "height": 27
+        },
+        "firstSeen": 7.778,
+        "lastSeen": 10,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          7.778,
+          10
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 12.222,
+        "selector": "#sys-title > span:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 688.3,
+          "top": 120,
+          "right": 1231.7,
+          "bottom": 155,
+          "width": 543.41,
+          "height": 35
+        },
+        "containerSelector": "#systems > div:nth-of-type(1) > div:nth-of-type(5)",
+        "text": "CHOOSE YOUR SYSTEMS",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "compositions/systems.html",
+        "bbox": {
+          "x": 688.3,
+          "y": 120,
+          "width": 543.41,
+          "height": 35
+        },
+        "firstSeen": 12.222,
+        "lastSeen": 14.444,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          12.222,
+          14.444
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 12.222,
+        "selector": "#sys-cards > div:nth-of-type(1) > div:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 309.19,
+          "top": 365.08,
+          "right": 354.8,
+          "bottom": 466.08,
+          "width": 45.61,
+          "height": 101
+        },
+        "containerSelector": "#systems > div:nth-of-type(1) > div:nth-of-type(5)",
+        "text": "»",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "compositions/systems.html",
+        "bbox": {
+          "x": 309.19,
+          "y": 365.08,
+          "width": 45.61,
+          "height": 101
+        },
+        "firstSeen": 12.222,
+        "lastSeen": 14.444,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          12.222,
+          14.444
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 12.222,
+        "selector": "#sys-cards > div:nth-of-type(1) > div:nth-of-type(2)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 233.19,
+          "top": 474.08,
+          "right": 430.8,
+          "bottom": 500.08,
+          "width": 197.61,
+          "height": 26
+        },
+        "containerSelector": "#systems > div:nth-of-type(1) > div:nth-of-type(5)",
+        "text": "Pulse Blaster",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "compositions/systems.html",
+        "bbox": {
+          "x": 233.19,
+          "y": 474.08,
+          "width": 197.61,
+          "height": 26
+        },
+        "firstSeen": 12.222,
+        "lastSeen": 14.444,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          12.222,
+          14.444
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 12.222,
+        "selector": "#sys-cards > div:nth-of-type(1) > div:nth-of-type(3)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 295.33,
+          "top": 526.08,
+          "right": 368.66,
+          "bottom": 543.08,
+          "width": 73.33,
+          "height": 17
+        },
+        "containerSelector": "#systems > div:nth-of-type(1) > div:nth-of-type(5)",
+        "text": "Weapon",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "compositions/systems.html",
+        "bbox": {
+          "x": 295.33,
+          "y": 526.08,
+          "width": 73.33,
+          "height": 17
+        },
+        "firstSeen": 12.222,
+        "lastSeen": 14.444,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          12.222,
+          14.444
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 12.222,
+        "selector": "#sys-cards > div:nth-of-type(1) > div:nth-of-type(4)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 248,
+          "top": 571.08,
+          "right": 416,
+          "bottom": 612.88,
+          "width": 168,
+          "height": 41.8
+        },
+        "containerSelector": "#systems > div:nth-of-type(1) > div:nth-of-type(5)",
+        "text": "Rapid bolts seek the nearest hostile",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "compositions/systems.html",
+        "bbox": {
+          "x": 248,
+          "y": 571.08,
+          "width": 168,
+          "height": 41.8
+        },
+        "firstSeen": 12.222,
+        "lastSeen": 14.444,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          12.222,
+          14.444
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 12.222,
+        "selector": "#sys-cards > div:nth-of-type(1) > div:nth-of-type(5)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 285.19,
+          "top": 651.08,
+          "right": 378.8,
+          "bottom": 668.08,
+          "width": 93.61,
+          "height": 17
+        },
+        "containerSelector": "#systems > div:nth-of-type(1) > div:nth-of-type(5)",
+        "text": "MK.I — V",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "compositions/systems.html",
+        "bbox": {
+          "x": 285.19,
+          "y": 651.08,
+          "width": 93.61,
+          "height": 17
+        },
+        "firstSeen": 12.222,
+        "lastSeen": 14.444,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          12.222,
+          14.444
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 12.222,
+        "selector": "#sys-cards > div:nth-of-type(2) > div:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 608,
+          "top": 367.57,
+          "right": 684,
+          "bottom": 468.57,
+          "width": 76,
+          "height": 101
+        },
+        "containerSelector": "#systems > div:nth-of-type(1) > div:nth-of-type(5)",
+        "text": "◎",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "compositions/systems.html",
+        "bbox": {
+          "x": 608,
+          "y": 367.57,
+          "width": 76,
+          "height": 101
+        },
+        "firstSeen": 12.222,
+        "lastSeen": 14.444,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          12.222,
+          14.444
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 12.222,
+        "selector": "#sys-cards > div:nth-of-type(2) > div:nth-of-type(2)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 562.39,
+          "top": 476.57,
+          "right": 729.59,
+          "bottom": 502.57,
+          "width": 167.2,
+          "height": 26
+        },
+        "containerSelector": "#systems > div:nth-of-type(1) > div:nth-of-type(5)",
+        "text": "Gyre Blades",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "compositions/systems.html",
+        "bbox": {
+          "x": 562.39,
+          "y": 476.57,
+          "width": 167.2,
+          "height": 26
+        },
+        "firstSeen": 12.222,
+        "lastSeen": 14.444,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          12.222,
+          14.444
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 12.222,
+        "selector": "#sys-cards > div:nth-of-type(2) > div:nth-of-type(3)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 609.33,
+          "top": 528.57,
+          "right": 682.66,
+          "bottom": 545.57,
+          "width": 73.33,
+          "height": 17
+        },
+        "containerSelector": "#systems > div:nth-of-type(1) > div:nth-of-type(5)",
+        "text": "Weapon",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "compositions/systems.html",
+        "bbox": {
+          "x": 609.33,
+          "y": 528.57,
+          "width": 73.33,
+          "height": 17
+        },
+        "firstSeen": 12.222,
+        "lastSeen": 14.444,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          12.222,
+          14.444
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 12.222,
+        "selector": "#sys-cards > div:nth-of-type(2) > div:nth-of-type(4)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 549.39,
+          "top": 573.57,
+          "right": 742.59,
+          "bottom": 615.36,
+          "width": 193.2,
+          "height": 41.8
+        },
+        "containerSelector": "#systems > div:nth-of-type(1) > div:nth-of-type(5)",
+        "text": "Blades orbit your hull, shredding contacts",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "compositions/systems.html",
+        "bbox": {
+          "x": 549.39,
+          "y": 573.57,
+          "width": 193.2,
+          "height": 41.8
+        },
+        "firstSeen": 12.222,
+        "lastSeen": 14.444,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          12.222,
+          14.444
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 12.222,
+        "selector": "#sys-cards > div:nth-of-type(2) > div:nth-of-type(5)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 599.19,
+          "top": 653.57,
+          "right": 692.8,
+          "bottom": 670.57,
+          "width": 93.61,
+          "height": 17
+        },
+        "containerSelector": "#systems > div:nth-of-type(1) > div:nth-of-type(5)",
+        "text": "MK.I — V",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "compositions/systems.html",
+        "bbox": {
+          "x": 599.19,
+          "y": 653.57,
+          "width": 93.61,
+          "height": 17
+        },
+        "firstSeen": 12.222,
+        "lastSeen": 14.444,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          12.222,
+          14.444
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 12.222,
+        "selector": "#sys-cards > div:nth-of-type(3) > div:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 928.16,
+          "top": 374.09,
+          "right": 991.84,
+          "bottom": 475.09,
+          "width": 63.69,
+          "height": 101
+        },
+        "containerSelector": "#systems > div:nth-of-type(1) > div:nth-of-type(5)",
+        "text": "✦",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "compositions/systems.html",
+        "bbox": {
+          "x": 928.16,
+          "y": 374.09,
+          "width": 63.69,
+          "height": 101
+        },
+        "firstSeen": 12.222,
+        "lastSeen": 14.444,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          12.222,
+          14.444
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 12.222,
+        "selector": "#sys-cards > div:nth-of-type(3) > div:nth-of-type(2)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 884,
+          "top": 483.09,
+          "right": 1036,
+          "bottom": 509.09,
+          "width": 152,
+          "height": 26
+        },
+        "containerSelector": "#systems > div:nth-of-type(1) > div:nth-of-type(5)",
+        "text": "Nova Burst",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "compositions/systems.html",
+        "bbox": {
+          "x": 884,
+          "y": 483.09,
+          "width": 152,
+          "height": 26
+        },
+        "firstSeen": 12.222,
+        "lastSeen": 14.444,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          12.222,
+          14.444
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 12.222,
+        "selector": "#sys-cards > div:nth-of-type(3) > div:nth-of-type(3)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 923.33,
+          "top": 535.09,
+          "right": 996.66,
+          "bottom": 552.09,
+          "width": 73.33,
+          "height": 17
+        },
+        "containerSelector": "#systems > div:nth-of-type(1) > div:nth-of-type(5)",
+        "text": "Weapon",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "compositions/systems.html",
+        "bbox": {
+          "x": 923.33,
+          "y": 535.09,
+          "width": 73.33,
+          "height": 17
+        },
+        "firstSeen": 12.222,
+        "lastSeen": 14.444,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          12.222,
+          14.444
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 12.222,
+        "selector": "#sys-cards > div:nth-of-type(3) > div:nth-of-type(4)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 871.8,
+          "top": 580.09,
+          "right": 1048.2,
+          "bottom": 621.88,
+          "width": 176.41,
+          "height": 41.8
+        },
+        "containerSelector": "#systems > div:nth-of-type(1) > div:nth-of-type(5)",
+        "text": "Periodic shockwave annihilates the swarm",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "compositions/systems.html",
+        "bbox": {
+          "x": 871.8,
+          "y": 580.09,
+          "width": 176.41,
+          "height": 41.8
+        },
+        "firstSeen": 12.222,
+        "lastSeen": 14.444,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          12.222,
+          14.444
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 12.222,
+        "selector": "#sys-cards > div:nth-of-type(3) > div:nth-of-type(5)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 913.19,
+          "top": 660.09,
+          "right": 1006.8,
+          "bottom": 677.09,
+          "width": 93.61,
+          "height": 17
+        },
+        "containerSelector": "#systems > div:nth-of-type(1) > div:nth-of-type(5)",
+        "text": "MK.I — V",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "compositions/systems.html",
+        "bbox": {
+          "x": 913.19,
+          "y": 660.09,
+          "width": 93.61,
+          "height": 17
+        },
+        "firstSeen": 12.222,
+        "lastSeen": 14.444,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          12.222,
+          14.444
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 12.222,
+        "selector": "#sys-cards > div:nth-of-type(4) > div:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 1242.16,
+          "top": 390.54,
+          "right": 1305.84,
+          "bottom": 491.54,
+          "width": 63.69,
+          "height": 101
+        },
+        "containerSelector": "#systems > div:nth-of-type(1) > div:nth-of-type(5)",
+        "text": "➤",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "compositions/systems.html",
+        "bbox": {
+          "x": 1242.16,
+          "y": 390.54,
+          "width": 63.69,
+          "height": 101
+        },
+        "firstSeen": 12.222,
+        "lastSeen": 14.444,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          12.222,
+          14.444
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 12.222,
+        "selector": "#sys-cards > div:nth-of-type(4) > div:nth-of-type(2)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 1182.8,
+          "top": 499.54,
+          "right": 1365.2,
+          "bottom": 525.54,
+          "width": 182.41,
+          "height": 26
+        },
+        "containerSelector": "#systems > div:nth-of-type(1) > div:nth-of-type(5)",
+        "text": "Seeker Swarm",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "compositions/systems.html",
+        "bbox": {
+          "x": 1182.8,
+          "y": 499.54,
+          "width": 182.41,
+          "height": 26
+        },
+        "firstSeen": 12.222,
+        "lastSeen": 14.444,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          12.222,
+          14.444
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 12.222,
+        "selector": "#sys-cards > div:nth-of-type(4) > div:nth-of-type(3)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 1237.33,
+          "top": 551.54,
+          "right": 1310.66,
+          "bottom": 568.54,
+          "width": 73.33,
+          "height": 17
+        },
+        "containerSelector": "#systems > div:nth-of-type(1) > div:nth-of-type(5)",
+        "text": "Weapon",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "compositions/systems.html",
+        "bbox": {
+          "x": 1237.33,
+          "y": 551.54,
+          "width": 73.33,
+          "height": 17
+        },
+        "firstSeen": 12.222,
+        "lastSeen": 14.444,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          12.222,
+          14.444
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 12.222,
+        "selector": "#sys-cards > div:nth-of-type(4) > div:nth-of-type(4)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 1173.19,
+          "top": 596.54,
+          "right": 1374.8,
+          "bottom": 638.33,
+          "width": 201.61,
+          "height": 41.8
+        },
+        "containerSelector": "#systems > div:nth-of-type(1) > div:nth-of-type(5)",
+        "text": "Homing warheads detonate on impact",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "compositions/systems.html",
+        "bbox": {
+          "x": 1173.19,
+          "y": 596.54,
+          "width": 201.61,
+          "height": 41.8
+        },
+        "firstSeen": 12.222,
+        "lastSeen": 14.444,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          12.222,
+          14.444
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 12.222,
+        "selector": "#sys-cards > div:nth-of-type(4) > div:nth-of-type(5)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 1227.19,
+          "top": 676.54,
+          "right": 1320.8,
+          "bottom": 693.54,
+          "width": 93.61,
+          "height": 17
+        },
+        "containerSelector": "#systems > div:nth-of-type(1) > div:nth-of-type(5)",
+        "text": "MK.I — V",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "compositions/systems.html",
+        "bbox": {
+          "x": 1227.19,
+          "y": 676.54,
+          "width": 93.61,
+          "height": 17
+        },
+        "firstSeen": 12.222,
+        "lastSeen": 14.444,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          12.222,
+          14.444
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 16.667,
+        "selector": "span.n",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 408.59,
+          "top": 268.5,
+          "right": 877.8,
+          "bottom": 556.5,
+          "width": 469.2,
+          "height": 288
+        },
+        "containerSelector": "#endcard > div:nth-of-type(1) > div:nth-of-type(6)",
+        "text": "NEON",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "compositions/endcard.html",
+        "bbox": {
+          "x": 408.59,
+          "y": 268.5,
+          "width": 469.2,
+          "height": 288
+        },
+        "firstSeen": 16.667,
+        "lastSeen": 18.889,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          16.667,
+          18.889
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 16.667,
+        "selector": "span.s",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 877.8,
+          "top": 268.5,
+          "right": 1511.41,
+          "bottom": 556.5,
+          "width": 633.61,
+          "height": 288
+        },
+        "containerSelector": "#endcard > div:nth-of-type(1) > div:nth-of-type(6)",
+        "text": "SWARM",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "compositions/endcard.html",
+        "bbox": {
+          "x": 877.8,
+          "y": 268.5,
+          "width": 633.61,
+          "height": 288
+        },
+        "firstSeen": 16.667,
+        "lastSeen": 18.889,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          16.667,
+          18.889
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 16.667,
+        "selector": "#ec-kicker > span:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 711.11,
+          "top": 552.5,
+          "right": 1208.88,
+          "bottom": 583.5,
+          "width": 497.77,
+          "height": 31
+        },
+        "containerSelector": "#endcard > div:nth-of-type(1) > div:nth-of-type(6)",
+        "text": "SURVIVE THE BLOOM",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "compositions/endcard.html",
+        "bbox": {
+          "x": 711.11,
+          "y": 552.5,
+          "width": 497.77,
+          "height": 31
+        },
+        "firstSeen": 16.667,
+        "lastSeen": 18.889,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          16.667,
+          18.889
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 16.667,
+        "selector": "div.btn",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 831.3,
+          "top": 674.9,
+          "right": 1088.7,
+          "bottom": 709.9,
+          "width": 257.41,
+          "height": 35
+        },
+        "containerSelector": "#endcard > div:nth-of-type(1) > div:nth-of-type(6)",
+        "text": "npm run dev",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {
+          "data-var-text": "cta"
+        },
+        "sourceFile": "compositions/endcard.html",
+        "bbox": {
+          "x": 831.3,
+          "y": 674.9,
+          "width": 257.41,
+          "height": 35
+        },
+        "firstSeen": 16.667,
+        "lastSeen": 18.889,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          16.667,
+          18.889
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 3.333,
+        "selector": "#line-2 > h2:nth-of-type(1) > span:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 496.19,
+          "top": 660,
+          "right": 622.03,
+          "bottom": 792,
+          "width": 125.84,
+          "height": 132
+        },
+        "containerSelector": "#swarm > div:nth-of-type(1) > div:nth-of-type(5)",
+        "text": "AN",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "compositions/swarm.html",
+        "bbox": {
+          "x": 496.19,
+          "y": 660,
+          "width": 125.84,
+          "height": 132
+        },
+        "firstSeen": 3.333,
+        "lastSeen": 3.333,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          3.333
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 3.333,
+        "selector": "#line-2 > h2:nth-of-type(1) > span:nth-of-type(2)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 641.81,
+          "top": 660,
+          "right": 1043.55,
+          "bottom": 792,
+          "width": 401.73,
+          "height": 132
+        },
+        "containerSelector": "#swarm > div:nth-of-type(1) > div:nth-of-type(5)",
+        "text": "ENDLESS",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "compositions/swarm.html",
+        "bbox": {
+          "x": 641.81,
+          "y": 660,
+          "width": 401.73,
+          "height": 132
+        },
+        "firstSeen": 3.333,
+        "lastSeen": 3.333,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          3.333
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 3.333,
+        "selector": "#line-2 > h2:nth-of-type(1) > span:nth-of-type(3)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 1063.33,
+          "top": 660,
+          "right": 1423.81,
+          "bottom": 792,
+          "width": 360.48,
+          "height": 132
+        },
+        "containerSelector": "#swarm > div:nth-of-type(1) > div:nth-of-type(5)",
+        "text": "SWARM.",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "compositions/swarm.html",
+        "bbox": {
+          "x": 1063.33,
+          "y": 660,
+          "width": 360.48,
+          "height": 132
+        },
+        "firstSeen": 3.333,
+        "lastSeen": 3.333,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          3.333
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.444,
+        "selector": "#sys-cards > div:nth-of-type(5) > div:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 1566.59,
+          "top": 364,
+          "right": 1609.39,
+          "bottom": 465,
+          "width": 42.8,
+          "height": 101
+        },
+        "containerSelector": "#systems > div:nth-of-type(1) > div:nth-of-type(5)",
+        "text": "⌖",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "compositions/systems.html",
+        "bbox": {
+          "x": 1566.59,
+          "y": 364,
+          "width": 42.8,
+          "height": 101
+        },
+        "firstSeen": 14.444,
+        "lastSeen": 14.444,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.444
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.444,
+        "selector": "#sys-cards > div:nth-of-type(5) > div:nth-of-type(2)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 1512,
+          "top": 473,
+          "right": 1664,
+          "bottom": 499,
+          "width": 152,
+          "height": 26
+        },
+        "containerSelector": "#systems > div:nth-of-type(1) > div:nth-of-type(5)",
+        "text": "Rail Lance",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "compositions/systems.html",
+        "bbox": {
+          "x": 1512,
+          "y": 473,
+          "width": 152,
+          "height": 26
+        },
+        "firstSeen": 14.444,
+        "lastSeen": 14.444,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.444
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.444,
+        "selector": "#sys-cards > div:nth-of-type(5) > div:nth-of-type(3)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 1551.33,
+          "top": 525,
+          "right": 1624.66,
+          "bottom": 542,
+          "width": 73.33,
+          "height": 17
+        },
+        "containerSelector": "#systems > div:nth-of-type(1) > div:nth-of-type(5)",
+        "text": "Weapon",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "compositions/systems.html",
+        "bbox": {
+          "x": 1551.33,
+          "y": 525,
+          "width": 73.33,
+          "height": 17
+        },
+        "firstSeen": 14.444,
+        "lastSeen": 14.444,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.444
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.444,
+        "selector": "#sys-cards > div:nth-of-type(5) > div:nth-of-type(4)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 1478.8,
+          "top": 570,
+          "right": 1697.2,
+          "bottom": 611.8,
+          "width": 218.41,
+          "height": 41.8
+        },
+        "containerSelector": "#systems > div:nth-of-type(1) > div:nth-of-type(5)",
+        "text": "Piercing railgun vaporizes a column",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "compositions/systems.html",
+        "bbox": {
+          "x": 1478.8,
+          "y": 570,
+          "width": 218.41,
+          "height": 41.8
+        },
+        "firstSeen": 14.444,
+        "lastSeen": 14.444,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.444
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 14.444,
+        "selector": "#sys-cards > div:nth-of-type(5) > div:nth-of-type(5)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 1541.19,
+          "top": 650,
+          "right": 1634.8,
+          "bottom": 667,
+          "width": 93.61,
+          "height": 17
+        },
+        "containerSelector": "#systems > div:nth-of-type(1) > div:nth-of-type(5)",
+        "text": "MK.I — V",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "compositions/systems.html",
+        "bbox": {
+          "x": 1541.19,
+          "y": 650,
+          "width": 93.61,
+          "height": 17
+        },
+        "firstSeen": 14.444,
+        "lastSeen": 14.444,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          14.444
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 18.889,
+        "selector": "#ec-meta > span:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 657.59,
+          "top": 760.5,
+          "right": 1262.41,
+          "bottom": 781.5,
+          "width": 604.81,
+          "height": 21
+        },
+        "containerSelector": "#endcard > div:nth-of-type(1) > div:nth-of-type(6)",
+        "text": "one html file · zero assets · wasd to move",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "compositions/endcard.html",
+        "bbox": {
+          "x": 657.59,
+          "y": 760.5,
+          "width": 604.81,
+          "height": 21
+        },
+        "firstSeen": 18.889,
+        "lastSeen": 18.889,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          18.889
+        ]
+      }
+    ],
+    "duration": 20,
+    "samples": [
+      1.111,
+      3.333,
+      5.556,
+      7.778,
+      10,
+      12.222,
+      14.444,
+      16.667,
+      18.889
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 43,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 6,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 3.79:1; WCAG AA requires 4.5:1.",
+        "text": "MK.I — V",
+        "fg": "rgb(98,111,130)",
+        "bg": "rgb(9,13,28)",
+        "ratio": 3.79,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(111,123,140)",
+        "large": false,
+        "selector": "div > div:nth-of-type(3) > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(5)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/systems.html",
+        "bbox": {
+          "x": 285.1875,
+          "y": 650,
+          "width": 93.609375,
+          "height": 17
+        },
+        "time": 14.444,
+        "times": [
+          14.444
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 3.79:1; WCAG AA requires 4.5:1.",
+        "text": "MK.I — V",
+        "fg": "rgb(98,111,130)",
+        "bg": "rgb(9,13,28)",
+        "ratio": 3.79,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(111,123,140)",
+        "large": false,
+        "selector": "div > div:nth-of-type(3) > div > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(5)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/systems.html",
+        "bbox": {
+          "x": 599.1875,
+          "y": 650,
+          "width": 93.609375,
+          "height": 17
+        },
+        "time": 14.444,
+        "times": [
+          14.444
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 3.79:1; WCAG AA requires 4.5:1.",
+        "text": "MK.I — V",
+        "fg": "rgb(98,111,130)",
+        "bg": "rgb(9,13,28)",
+        "ratio": 3.79,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(111,123,140)",
+        "large": false,
+        "selector": "div > div:nth-of-type(3) > div > div:nth-of-type(3) > div:nth-of-type(3) > div:nth-of-type(5)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/systems.html",
+        "bbox": {
+          "x": 913.1875,
+          "y": 650,
+          "width": 93.609375,
+          "height": 17
+        },
+        "time": 14.444,
+        "times": [
+          14.444
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 3.79:1; WCAG AA requires 4.5:1.",
+        "text": "MK.I — V",
+        "fg": "rgb(98,111,130)",
+        "bg": "rgb(9,13,28)",
+        "ratio": 3.79,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(111,123,140)",
+        "large": false,
+        "selector": "div > div:nth-of-type(3) > div > div:nth-of-type(3) > div:nth-of-type(4) > div:nth-of-type(5)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/systems.html",
+        "bbox": {
+          "x": 1227.1875,
+          "y": 650,
+          "width": 93.609375,
+          "height": 17
+        },
+        "time": 14.444,
+        "times": [
+          14.444
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 3.79:1; WCAG AA requires 4.5:1.",
+        "text": "MK.I — V",
+        "fg": "rgb(98,111,130)",
+        "bg": "rgb(9,13,28)",
+        "ratio": 3.79,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(111,123,140)",
+        "large": false,
+        "selector": "div > div:nth-of-type(3) > div > div:nth-of-type(3) > div:nth-of-type(5) > div:nth-of-type(5)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/systems.html",
+        "bbox": {
+          "x": 1541.1875,
+          "y": 650,
+          "width": 93.609375,
+          "height": 17
+        },
+        "time": 14.444,
+        "times": [
+          14.444
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 3.47:1; WCAG AA requires 4.5:1.",
+        "text": "one html file · zero assets · wasd to move",
+        "fg": "rgb(92,107,122)",
+        "bg": "rgb(8,17,26)",
+        "ratio": 3.47,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(112,125,138)",
+        "large": false,
+        "selector": "div > div:nth-of-type(4) > div > div:nth-of-type(4) > span",
+        "dataAttributes": {},
+        "sourceFile": "compositions/endcard.html",
+        "bbox": {
+          "x": 657.59375,
+          "y": 760.5,
+          "width": 604.8125,
+          "height": 21
+        },
+        "time": 18.889,
+        "times": [
+          18.889
+        ]
+      }
+    ],
+    "enabled": true,
+    "samples": [
+      1.111,
+      5.556,
+      10,
+      14.444,
+      18.889
+    ],
+    "checked": 41,
+    "passed": 35
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 3,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 7 text elements stay under it for 0.5 s or more, the smallest \"5\" at 21 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "5",
+        "selector": "div.chips > div:nth-of-type(1) > b:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/gameplay.html",
+        "bbox": {
+          "x": 117.46,
+          "y": 145,
+          "width": 15.96,
+          "height": 27
+        },
+        "time": 5.75,
+        "times": [
+          5.25,
+          5.75,
+          5.75,
+          6.25,
+          6.25,
+          6.875,
+          6.875
+        ],
+        "fontPx": 21,
+        "floorPx": 28,
+        "seconds": 5.75,
+        "elements": [
+          {
+            "selector": "div.chips > div:nth-of-type(1) > b:nth-of-type(1)",
+            "text": "5",
+            "fontPx": 21,
+            "time": 5.75,
+            "seconds": 5.75
+          },
+          {
+            "selector": "div.chips > div:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "weapon systems, mk.i–v",
+            "fontPx": 21,
+            "time": 5.75,
+            "seconds": 5.75
+          },
+          {
+            "selector": "div.chip.c2 > b:nth-of-type(1)",
+            "text": "7",
+            "fontPx": 21,
+            "time": 6.25,
+            "seconds": 5.25
+          },
+          {
+            "selector": "div.chip.c2 > span:nth-of-type(1)",
+            "text": "hostile archetypes",
+            "fontPx": 21,
+            "time": 6.25,
+            "seconds": 5.25
+          },
+          {
+            "selector": "div.chip.c3 > b:nth-of-type(1)",
+            "text": "0",
+            "fontPx": 21,
+            "time": 6.875,
+            "seconds": 4.625
+          },
+          {
+            "selector": "div.chip.c3 > span:nth-of-type(1)",
+            "text": "art assets — all procedural",
+            "fontPx": 21,
+            "time": 6.875,
+            "seconds": 4.625
+          },
+          {
+            "selector": "div.kicker > span:nth-of-type(2)",
+            "text": "REAL RUN — UNSCRIPTED",
+            "fontPx": 22,
+            "time": 5.25,
+            "seconds": 6.25
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 21 text elements stay under it for 0.5 s or more, the smallest \"Weapon\" at 13 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "Weapon",
+        "selector": "#sys-cards > div:nth-of-type(1) > div:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/systems.html",
+        "bbox": {
+          "x": 295.33,
+          "y": 548.14,
+          "width": 73.33,
+          "height": 17
+        },
+        "time": 12,
+        "times": [
+          11.75,
+          12,
+          12,
+          12,
+          12,
+          12.125,
+          12.125,
+          12.125,
+          12.125,
+          12.25,
+          12.25,
+          12.25,
+          12.25,
+          12.25,
+          12.25,
+          12.25,
+          12.25,
+          12.375,
+          12.375,
+          12.375,
+          12.375
+        ],
+        "fontPx": 13,
+        "floorPx": 28,
+        "seconds": 3.625,
+        "elements": [
+          {
+            "selector": "#sys-cards > div:nth-of-type(1) > div:nth-of-type(3)",
+            "text": "Weapon",
+            "fontPx": 13,
+            "time": 12,
+            "seconds": 3.625
+          },
+          {
+            "selector": "#sys-cards > div:nth-of-type(1) > div:nth-of-type(5)",
+            "text": "MK.I — V",
+            "fontPx": 13,
+            "time": 12,
+            "seconds": 3.625
+          },
+          {
+            "selector": "#sys-cards > div:nth-of-type(2) > div:nth-of-type(3)",
+            "text": "Weapon",
+            "fontPx": 13,
+            "time": 12.125,
+            "seconds": 3.5
+          },
+          {
+            "selector": "#sys-cards > div:nth-of-type(2) > div:nth-of-type(5)",
+            "text": "MK.I — V",
+            "fontPx": 13,
+            "time": 12.125,
+            "seconds": 3.5
+          },
+          {
+            "selector": "#sys-cards > div:nth-of-type(3) > div:nth-of-type(3)",
+            "text": "Weapon",
+            "fontPx": 13,
+            "time": 12.25,
+            "seconds": 3.375
+          },
+          {
+            "selector": "#sys-cards > div:nth-of-type(3) > div:nth-of-type(5)",
+            "text": "MK.I — V",
+            "fontPx": 13,
+            "time": 12.25,
+            "seconds": 3.375
+          },
+          {
+            "selector": "#sys-cards > div:nth-of-type(4) > div:nth-of-type(3)",
+            "text": "Weapon",
+            "fontPx": 13,
+            "time": 12.25,
+            "seconds": 3.375
+          },
+          {
+            "selector": "#sys-cards > div:nth-of-type(4) > div:nth-of-type(5)",
+            "text": "MK.I — V",
+            "fontPx": 13,
+            "time": 12.25,
+            "seconds": 3.375
+          },
+          {
+            "selector": "#sys-cards > div:nth-of-type(5) > div:nth-of-type(3)",
+            "text": "Weapon",
+            "fontPx": 13,
+            "time": 12.375,
+            "seconds": 3.25
+          },
+          {
+            "selector": "#sys-cards > div:nth-of-type(5) > div:nth-of-type(5)",
+            "text": "MK.I — V",
+            "fontPx": 13,
+            "time": 12.375,
+            "seconds": 3.25
+          },
+          {
+            "selector": "#sys-cards > div:nth-of-type(1) > div:nth-of-type(4)",
+            "text": "Rapid bolts seek the nearest hostile",
+            "fontPx": 14,
+            "time": 12,
+            "seconds": 3.625
+          },
+          {
+            "selector": "#sys-cards > div:nth-of-type(2) > div:nth-of-type(4)",
+            "text": "Blades orbit your hull, shredding contacts",
+            "fontPx": 14,
+            "time": 12.125,
+            "seconds": 3.5
+          },
+          {
+            "selector": "#sys-cards > div:nth-of-type(3) > div:nth-of-type(4)",
+            "text": "Periodic shockwave annihilates the swarm",
+            "fontPx": 14,
+            "time": 12.25,
+            "seconds": 3.375
+          },
+          {
+            "selector": "#sys-cards > div:nth-of-type(4) > div:nth-of-type(4)",
+            "text": "Homing warheads detonate on impact",
+            "fontPx": 14,
+            "time": 12.25,
+            "seconds": 3.375
+          },
+          {
+            "selector": "#sys-cards > div:nth-of-type(5) > div:nth-of-type(4)",
+            "text": "Piercing railgun vaporizes a column",
+            "fontPx": 14,
+            "time": 12.375,
+            "seconds": 3.25
+          },
+          {
+            "selector": "#sys-cards > div:nth-of-type(1) > div:nth-of-type(2)",
+            "text": "Pulse Blaster",
+            "fontPx": 20,
+            "time": 12,
+            "seconds": 3.625
+          },
+          {
+            "selector": "#sys-cards > div:nth-of-type(2) > div:nth-of-type(2)",
+            "text": "Gyre Blades",
+            "fontPx": 20,
+            "time": 12.125,
+            "seconds": 3.5
+          },
+          {
+            "selector": "#sys-cards > div:nth-of-type(3) > div:nth-of-type(2)",
+            "text": "Nova Burst",
+            "fontPx": 20,
+            "time": 12.25,
+            "seconds": 3.375
+          },
+          {
+            "selector": "#sys-cards > div:nth-of-type(4) > div:nth-of-type(2)",
+            "text": "Seeker Swarm",
+            "fontPx": 20,
+            "time": 12.25,
+            "seconds": 3.375
+          },
+          {
+            "selector": "#sys-cards > div:nth-of-type(5) > div:nth-of-type(2)",
+            "text": "Rail Lance",
+            "fontPx": 20,
+            "time": 12.375,
+            "seconds": 3.25
+          },
+          {
+            "selector": "#sys-title > span:nth-of-type(1)",
+            "text": "CHOOSE YOUR SYSTEMS",
+            "fontPx": 26,
+            "time": 11.75,
+            "seconds": 3.875
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 3 text elements stay under it for 0.5 s or more, the smallest \"one html file · zero assets · wasd to...\" at 16 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "one html file · zero assets · wasd to move",
+        "selector": "#ec-meta > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/endcard.html",
+        "bbox": {
+          "x": 657.59,
+          "y": 760.5,
+          "width": 604.82,
+          "height": 21
+        },
+        "time": 17,
+        "times": [
+          16.25,
+          16.625,
+          17
+        ],
+        "fontPx": 16,
+        "floorPx": 28,
+        "seconds": 3,
+        "elements": [
+          {
+            "selector": "#ec-meta > span:nth-of-type(1)",
+            "text": "one html file · zero assets · wasd to move",
+            "fontPx": 16,
+            "time": 17,
+            "seconds": 3
+          },
+          {
+            "selector": "#ec-kicker > span:nth-of-type(1)",
+            "text": "SURVIVE THE BLOOM",
+            "fontPx": 24,
+            "time": 16.25,
+            "seconds": 3.75
+          },
+          {
+            "selector": "div.btn",
+            "text": "npm run dev",
+            "fontPx": 26,
+            "time": 16.625,
+            "seconds": 3.375
+          }
+        ]
+      }
+    ],
+    "enabled": true,
+    "step": 0.125,
+    "samples": 160
+  },
+  "audio": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  }
+}
